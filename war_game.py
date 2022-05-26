@@ -43,6 +43,15 @@ class Deck:
     def __init__(self, number):
         self.number = number
     
-    def create(self)
+    def create(self):
+        # Method for creating deck cards
+        
+        all_cards = []
+
+        for suit in suits:
+            for rank in ranks:
+                all_cards.append(Card(rank, suit))
+
+
 
 # Create Player Class
